@@ -17,5 +17,5 @@ backprop.fit(X_train, y_train)
 pred = backprop.predict(X_test)
 print(f"Accuracy : {accuracy_score(pred, y_test)}")
 
-with open(r'D:\S3\stream_model\CNN\saved_back.pkl','wb') as file:
+with open(r'D:\deephub\Deep-Prediction-Hub\BP.pkl','wb') as file:
     pickle.dump(backprop, file)
