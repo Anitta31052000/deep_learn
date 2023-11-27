@@ -18,5 +18,5 @@ pred = percep.predict(X_test)
 
 print(f"Accuracy : {accuracy_score(pred, y_test)}")
 
-with open(r'D:\S3\stream_model\CNN\saved_per.pkl','wb') as file:
+with open(r'D:\deephub\Deep-Prediction-Hub\PP.pkl','wb') as file:
     pickle.dump(percep, file)
