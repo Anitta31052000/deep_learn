@@ -5,3 +5,4 @@ tqdm
 imageio
 seaborn
 opencv-python
+streamlit
