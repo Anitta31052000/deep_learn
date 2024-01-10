@@ -29,4 +29,5 @@ model.fit(X_train, y_train, epochs=20, batch_size=64)
 scores = model.evaluate(X_test, y_test, verbose=0)
 print("Accuracy: %.2f%%" % (scores[1]*100))
 
-model.save(r'D:\deephub\Deep-Prediction-Hub\LS.keras')
+model.save(r"D:\S3\stream_model\CNN\LS.keras")
+
